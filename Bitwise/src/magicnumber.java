@@ -1,6 +1,6 @@
-public class positionofrightmostbit {
+public class magicnumber {
     public static void main(String[] args) {
-        int n=3;
+        int n=6;
         int pow = 1;
         int count = 1;
         int ans = 0;
