@@ -5,7 +5,7 @@ public class sieveofe {
         sieve(n,primes);
     }
 
-    private static void sieve(int n, boolean[] primes) {
+     static void sieve(int n, boolean[] primes) {
         for (int i = 2; i*i <= n ; i++) {
             if(primes[i]==false){
                 for (int j = i+i; j <=n; j=j+i) {
