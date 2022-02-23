@@ -1,5 +1,3 @@
-package arrays;
-
 public class pattern {
     public static void main(String[] args) {
 //        star(4,0);
