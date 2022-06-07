@@ -4,8 +4,8 @@ public class permutations {
     public static void main(String[] args) {
         String s = "abcd";
         factorialp("",s);
-        System.out.println(factorialpList("",s));
-        System.out.println(factorialcount("",s));
+//        System.out.println(factorialpList("",s));
+//        System.out.println(factorialcount("",s));
     }
 
     private static int factorialcount(String p, String up) {

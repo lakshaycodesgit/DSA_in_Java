@@ -35,10 +35,10 @@ public class mink {
             list2.add(j);
         }
         for (long p = 0; p < list1.size(); p++) {
-            for (long q = 0; q < list2.size(); q++) {
-                if(list1.get(p)+list2.get(q) == x)
-                    list3.add(list1.get(p)*list2.get(q));
-            }
+//            for (long q = 0; q < list2.size(); q++) {
+//                if(list1.get(p)+list2.get(q) == x)
+//                    list3.add(list1.get(p)*list2.get(q));
+
 
         }
     }
