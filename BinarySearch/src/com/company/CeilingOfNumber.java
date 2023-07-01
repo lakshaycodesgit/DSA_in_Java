@@ -3,8 +3,15 @@ import java.util.Arrays;
 
 public class CeilingOfNumber {
     public static void main(String[] args) {
+        boolean flag = true;
+        System.out.println(flag);
+        flag = !flag;
+        System.out.println(flag);
+        flag = !flag;
+        System.out.println(flag);
+
         int[] arr = {2, 3, 5, 9, 14,14, 16, 18};
-        int target = 14;
+        int target = 8;
         System.out.println(search(arr, target));
     }
 

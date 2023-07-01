@@ -3,6 +3,7 @@ package com.company;
 public class binarysearch {
 
     public static void main(String[] args) {
+        System.out.println(Integer.MAX_VALUE);
         int[] arr={4,4,4,4,4,4,4,4,4,5,6};
         int target=4;
         int ans=search(arr,target);
